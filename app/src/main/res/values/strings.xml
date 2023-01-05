@@ -10,6 +10,7 @@
     <string name="menu_principal">Principal</string>
     <string name="menu_servico">Serviço</string>
     <string name="menu_cliente">Cliente</string>
+    <string name="menu_sobre">Sobre</string>
     <string name="navegação_email">atendimento@atmconsultoria.com</string>
     <string name="navegação_titulo">ATM consultoria</string>
     <!-- TODO: Remove or change this placeholder text -->
