@@ -7,9 +7,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_principal">Principal</string>
+    <string name="menu_servico">Serviço</string>
+    <string name="menu_cliente">Cliente</string>
     <string name="navegação_email">atendimento@atmconsultoria.com</string>
     <string name="navegação_titulo">ATM consultoria</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

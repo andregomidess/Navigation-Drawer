@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_principal">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.app.navigationdrawer.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_principal"
+        android:name="com.app.navigationdrawer.ui.principal.PrincipalFragment"
+        android:label="@string/menu_principal"
+        tools:layout="@layout/fragment_principal" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.app.navigationdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_clientes"
+        android:name="com.app.navigationdrawer.ui.clientes.ClienteFragment"
+        android:label="@string/menu_cliente"
+        tools:layout="@layout/fragment_cliente" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.app.navigationdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_servicos"
+        android:name="com.app.navigationdrawer.ui.servicos.ServicoFragment"
+        android:label="@string/menu_servico"
+        tools:layout="@layout/fragment_servico" />
 </navigation>
